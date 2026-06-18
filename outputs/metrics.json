@@ -1,0 +1,53 @@
+{
+  "country": "France (FR)",
+  "target_coverage": 0.9,
+  "point_metrics_test": {
+    "mae": 1752.2567227080538,
+    "rmse": 2799.7851194429013,
+    "mape_pct": 3.667473270097522
+  },
+  "windows": {
+    "full_test": {
+      "n": 6576,
+      "static": {
+        "coverage": 0.9013077858880778,
+        "coverage_gap": 0.0013077858880777837,
+        "mean_width": 7774.940932071666
+      },
+      "adaptive": {
+        "coverage": 0.9006995133819952,
+        "coverage_gap": 0.0006995133819951427,
+        "mean_width": 6631.1449231745555
+      }
+    },
+    "pre_shock": {
+      "n": 1440,
+      "static": {
+        "coverage": 0.88125,
+        "coverage_gap": 0.018750000000000044,
+        "mean_width": 7774.940932071664
+      },
+      "adaptive": {
+        "coverage": 0.8986111111111111,
+        "coverage_gap": 0.001388888888888884,
+        "mean_width": 8041.840444186601
+      }
+    },
+    "covid_shock": {
+      "n": 1872,
+      "static": {
+        "coverage": 0.7857905982905983,
+        "coverage_gap": 0.11420940170940175,
+        "mean_width": 7774.940932071665
+      },
+      "adaptive": {
+        "coverage": 0.9043803418803419,
+        "coverage_gap": 0.004380341880341865,
+        "mean_width": 9516.337792014849
+      }
+    }
+  },
+  "shock_coverage_gap_static": 0.11420940170940175,
+  "shock_coverage_gap_adaptive": 0.004380341880341865,
+  "shock_coverage_gap_reduction_pct": 96.16463985032743
+}
