@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Large raw data (downloaded by scripts/download_data.sh)
+data/*.csv
+
+# Generated binary artifacts
+outputs/*.npz
