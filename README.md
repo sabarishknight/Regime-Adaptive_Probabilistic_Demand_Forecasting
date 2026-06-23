@@ -25,14 +25,6 @@ frozen base model.
 Base point forecast on the 2020 test period: **MAE 1752 MW**, **RMSE 2800 MW**,
 **MAPE 3.67%**.
 
-### Resume bullet (final metric filled in)
-
-> Benchmarked the adaptive model against a static baseline across the shock
-> period: during the COVID-19 disruption the static model's interval coverage
-> collapsed from 90% to 79% (miscoverage 21%), while the adaptive method held
-> coverage at 90% — a **96% reduction in the calibration gap** with no
-> retraining of the base model.
-
 ## Method
 
 1. **Data** — ENTSO-E actual-load series (hourly), via Open Power System Data,
